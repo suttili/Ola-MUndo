@@ -34,6 +34,7 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
    ShowMessage(Edit1.text);
+   Edit1.Clear;
 end;
 
 end.
